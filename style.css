@@ -1,0 +1,99 @@
+body{
+    margin:0;
+}
+
+#nav{
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+}
+
+#nav a{
+    margin-right: 20px;
+}
+
+#nav a.topimage{
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+}
+
+#middle{
+    margin-top: 108px;
+    margin-left: 632px;
+}
+
+#searchbarcontainer{
+    margin-top: 22px;
+    text-align: center;
+}
+
+#searchbar{
+    padding-top: 10px;
+    padding-bottom: 17px;
+    outline: 0;
+    width: 580px;
+    border-radius: 30px;
+    border: 1.8px solid rgb(231, 231, 231);
+}
+
+#buttons{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+.button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color: rgb(247, 247, 247);
+border-radius: 4px;
+}
+
+#links{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    padding: 21px 21px;
+}
+
+#footer{
+    color: rgb(122, 120, 120);
+    font-size: 14px;
+    width: 1470px;
+    position: absolute;
+    bottom: 48px;
+    padding: 15px 31px;
+    background-color: rgb(243, 243, 243);
+}
+
+#foot{
+    font-size: 14px;
+    border: 1.8px solid rgb(190, 190, 190);
+    border-width: thin;
+    width: 1470px;
+    position: absolute;
+    bottom: 0px;
+    padding: 15px 32px;
+    background-color: rgb(243, 243, 243);
+}
+
+.hima{
+    padding-left: 10px;
+    font-size: 13px;    
+}
+
+.footers{
+    color: rgb(122, 120, 120);
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 27px;
+}
